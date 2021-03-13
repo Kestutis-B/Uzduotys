@@ -6,7 +6,7 @@ namespace Uzduotis_8_SkaiciuTrikampis
     {
         static void Main(string[] args)
         {
-            
+            int eilute, stulpelis;
             int skaicius;
             Console.WriteLine($"Iveskite skaiciu nuo 1 iki 9: ");
             string input = Console.ReadLine();
@@ -19,6 +19,27 @@ namespace Uzduotis_8_SkaiciuTrikampis
 
             skaicius = Int32.Parse(input);
 
+            for (eilute = 1; eilute <= 4; eilute++)
+            {
+                for (stulpelis = 1; stulpelis <= eilute; stulpelis++)
+                {
+
+                    Console.Write(skaicius + " ");
+
+                }
+                Console.WriteLine();
+
+            }
+            
+            for (eilute = 1; eilute <= 3; eilute++)
+            {
+                for (stulpelis = 3; stulpelis >= eilute; stulpelis--)
+                {
+                    Console.Write(skaicius + " ");
+                }
+                Console.WriteLine();
+
+            }
 
 
 

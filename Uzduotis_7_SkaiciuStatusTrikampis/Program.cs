@@ -8,15 +8,14 @@ namespace Uzduotis_7_SkaiciuStatusTrikampis
 {
     class Program
     {
-        const string SK = "5";
-        const string Tarpas = " ";
-        const int Counter = 5;
+        
         
         
         static void Main(string[] args)
         {
         
             int skaicius;
+            int eilute, stulpelis;
             Console.WriteLine($"Iveskite skaiciu nuo 1 iki 9: ");
             string input = Console.ReadLine();
             
@@ -29,9 +28,20 @@ namespace Uzduotis_7_SkaiciuStatusTrikampis
 
             
             skaicius = Int32.Parse(input);
-        
-            DisplayA();
-                       
+
+            for (eilute = 1; eilute <= 5; eilute++)
+            {
+                for (stulpelis = 1; stulpelis <= eilute; stulpelis++)
+                {
+
+                    Console.Write(skaicius + " ");
+
+                }
+                Console.WriteLine();
+
+            }
+
+
 
 
 
@@ -39,18 +49,7 @@ namespace Uzduotis_7_SkaiciuStatusTrikampis
             Console.ReadLine();
         }
         
-        static void DisplayA()
-        {
-            for (int i = 0; i < Counter ; i++)
-            {
-                for (int c = 0; c <= i; c++)
-                {
-                    Console.Write(SK);
-                }
-                Console.WriteLine();
-            }
-            
-        }
+        
         
     }
 }

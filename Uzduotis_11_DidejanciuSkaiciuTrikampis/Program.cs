@@ -30,11 +30,11 @@ namespace Uzduotis_11_DidejanciuSkaiciuTrikampis
 
             }
             /*kazkodel cia gaunasi
-             * 3
-             * 22
              * 111
+             * 22
+             * 3
              * */
-            for (eilute = 3; eilute >= 1; eilute--)
+            for (eilute = 1; eilute <= 3; eilute++)
             {
                 for (stulpelis = 3; stulpelis >= eilute; stulpelis--)
                 {

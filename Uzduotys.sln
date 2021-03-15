@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uzduotis_10_DidejanciuSkaic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uzduotis_11_DidejanciuSkaiciuTrikampis", "Uzduotis_11_DidejanciuSkaiciuTrikampis\Uzduotis_11_DidejanciuSkaiciuTrikampis.csproj", "{5548B7C4-CEEC-484A-8B7E-47DC43B01D74}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uzduotis_14_Matrica", "Uzduotis_14_Matrica\Uzduotis_14_Matrica.csproj", "{B797F104-7E1D-4288-8D2B-E39631BFE700}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{5548B7C4-CEEC-484A-8B7E-47DC43B01D74}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5548B7C4-CEEC-484A-8B7E-47DC43B01D74}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5548B7C4-CEEC-484A-8B7E-47DC43B01D74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B797F104-7E1D-4288-8D2B-E39631BFE700}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B797F104-7E1D-4288-8D2B-E39631BFE700}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B797F104-7E1D-4288-8D2B-E39631BFE700}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B797F104-7E1D-4288-8D2B-E39631BFE700}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
